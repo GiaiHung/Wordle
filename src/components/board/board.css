@@ -1,0 +1,13 @@
+.board {
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+
+

@@ -1,0 +1,21 @@
+.navbar {
+    padding: 5px 15px !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #3A3A3C;
+    margin-bottom: 10px;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icons {
+    color: white;
+    font-size: 2em;
+    font-weight: 500;
+    cursor: pointer;
+}

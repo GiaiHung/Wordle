@@ -1,0 +1,12 @@
+.keyboard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80vw;
+    margin: auto;
+}
+
+.letter_row {
+    display: flex;
+    align-items: center;
+}
