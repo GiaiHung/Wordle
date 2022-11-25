@@ -32,7 +32,7 @@ function ModalComponent() {
           </Modal.Header>
         )}
         <Modal.Body>
-          <p>{content}</p>
+          {!isGuide && <p>{content}</p>}
           {isGuide && <img src={guide} alt="" className="guide" style={{ width: '456px', margin: 'auto' }} />}
         </Modal.Body>
         {!isGuide && (

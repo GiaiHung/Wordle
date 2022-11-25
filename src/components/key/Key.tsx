@@ -15,7 +15,7 @@ const Key: React.FC<Props> = ({ value }) => {
 
   const handleTyping = () => {
     if (position >= 30) return
-    if(currentRow > row) return
+    if (currentRow > row) return
 
     const newBoard = [...board]
     newBoard[position] = value
