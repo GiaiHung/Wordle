@@ -5,6 +5,7 @@ import { playAgain, setBoard } from '../../app/boardSlice'
 import { close, setIsGuide } from '../../app/modalSlice'
 import { RootState } from '../../app/store'
 import guide from '../../assets/guide.png'
+import './modal.css'
 
 function ModalComponent() {
   const { isOpen, title, content, isGuide } = useSelector((state: RootState) => state.modalState)
@@ -33,7 +34,7 @@ function ModalComponent() {
         )}
         <Modal.Body>
           {!isGuide && <p>{content}</p>}
-          {isGuide && <img src={guide} alt="" className="guide" style={{ width: '456px', margin: 'auto' }} />}
+          {isGuide && <img src={guide} alt="" className="guide" />}
         </Modal.Body>
         {!isGuide && (
           <Modal.Footer>

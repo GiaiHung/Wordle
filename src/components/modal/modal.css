@@ -1,0 +1,11 @@
+.guide {
+    width: 346px;
+    margin: auto;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+    .guide {
+        width: 456px;
+    }
+}
